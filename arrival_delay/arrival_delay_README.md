@@ -77,6 +77,6 @@ During my debugging process, I ran into a few errors. Those consisted of:
 * Categorical features being different datatypes. This caused issues within the column transformer. I converted all of the categorical features to a string datatype.
 </br>
 I like to share areas I struggled in to hopefully save others time debugging if creating a similar model. I was also optimistic that I could select regular, well-known
-information that the general public would know as my features. As shown above, those features performed _poorly_. Within my conclusion in my code, I quickly realized I
+information that the general public would know as my features. As shown above, those features performed poorly. Within my conclusion in my code, I quickly realized I
 needed to conduct some feature engineering to select the best features instead. After all, the general public may not have access to this information, but the general
-public also isn't creating machine learning models. :smile:
+public also isn't creating machine learning models. :smile: 
